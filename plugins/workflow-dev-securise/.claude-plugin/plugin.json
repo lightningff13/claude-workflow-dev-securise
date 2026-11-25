@@ -1,0 +1,12 @@
+{
+  "name": "workflow-dev-securise",
+  "version": "1.0.0",
+  "description": "Guide le développement d'une application avec l'IA selon un workflow sécurisé à 4 gates de validation par le développeur senior.",
+  "author": {
+    "name": "lightningff13"
+  },
+  "homepage": "https://github.com/lightningff13/claude-workflow-dev-securise",
+  "repository": "https://github.com/lightningff13/claude-workflow-dev-securise",
+  "license": "MIT",
+  "keywords": ["securite", "workflow", "tdd", "stride", "revue-de-code", "kotlin-multiplatform"]
+}

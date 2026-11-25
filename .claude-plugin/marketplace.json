@@ -1,0 +1,24 @@
+{
+  "name": "claude-workflow-dev-securise",
+  "owner": {
+    "name": "lightningff13"
+  },
+  "metadata": {
+    "description": "Workflow de développement sécurisé assisté par IA : l'IA propose, le développeur senior décide.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "workflow-dev-securise",
+      "source": "./plugins/workflow-dev-securise",
+      "description": "Guide le développement d'une application avec l'IA selon un workflow sécurisé à 4 gates de validation par le développeur senior : spécification, maquettes exécutables, analyse STRIDE, plan, TDD + TPP, CI de sécurité, revue, mise en production.",
+      "version": "1.0.0",
+      "author": {
+        "name": "lightningff13"
+      },
+      "license": "MIT",
+      "keywords": ["securite", "workflow", "tdd", "stride", "revue-de-code", "kotlin-multiplatform"],
+      "category": "development"
+    }
+  ]
+}
