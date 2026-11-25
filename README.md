@@ -1,5 +1,17 @@
 # Workflow de développement sécurisé assisté par IA
 
+> **English summary**
+>
+> A Claude Code plugin that structures and secures AI-assisted application development. **The AI proposes, the senior developer decides.** The AI drafts specifications, executable mock-ups, the technical plan, code, tests and summaries. The senior developer approves at four gates: requirements and threat model, technical plan, code review, and production release. Automated checks that the AI cannot disable cover the rest.
+>
+> - **7 phases**: project setup, specification (user stories, mock-ups, STRIDE threat modeling), technical plan, implementation (TDD with the Transformation Priority Premise, small PRs), automated checks (lint, tests, accessibility, SAST, dependencies, secrets, SBOM), review (independent AI pre-review, then human review), pre-production.
+> - **Model and effort per phase**: specialized sub-agents, with Opus for design and review and Sonnet for implementation, to balance cost, speed and quality.
+> - **Context management**: an up-to-date project map, a log per feature and one session per phase, so the AI never re-reads the whole codebase.
+> - **Lessons learned**: the AI proposes a lesson in each PR, and the senior developer decides whether to adopt it, observe it or reject it.
+> - **Multi-platform support**: adaptations for Kotlin Multiplatform and Compose Multiplatform (Android, iOS, web, browser extension).
+>
+> Install it with `/plugin marketplace add lightningff13/claude-workflow-dev-securise`, then `/plugin install workflow-dev-securise@claude-workflow-dev-securise`. The rest of this README and the skill itself are in French.
+
 Plugin Claude Code qui structure et sécurise le développement d'applications avec l'IA.
 
 **Principe : l'IA propose, le développeur senior décide.** L'IA rédige les spécifications, les maquettes, le plan, le code, les tests et les résumés. Le senior valide à quatre points de contrôle (gates), et des contrôles automatiques que l'IA ne peut pas désactiver couvrent le reste.
